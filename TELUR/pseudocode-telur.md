@@ -8,8 +8,7 @@
 <br>
 
 ## Masak Telurnya
-## OUTPUT 'Apakah telur tersebut sudah matang?'
-## INPUT user akan menginput iya/tidak
+## INPUT user akan menginput apa telurnya sudah matang/belom
 ## STORE the user's input in the answer variable
 ## IF answer = 'iya' THEN
 ## OUTPUT 'Mantap, silahkan nikmati telur anda.'

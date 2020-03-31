@@ -1,16 +1,18 @@
 console.log('Start Program Penilaian Nilai Siswa');
 
-const scoreInput = window.prompt('Masukkan Nilai Ulangan Anda.')
-const score = Number(scoreInput)
+var scoreInput = window.prompt('Masukkan Nilai Ulangan Anda.')
+var score = Number(scoreInput)
 
 if (score <= 60) {
-    window.alert('Kurang.')
+    window.alert('Nilai anda Kurang & Remedial. Jangan Menyerah.');
 } else if (score <= 75){
-    window.alert('Cukup.')
+    window.alert('Nilai anda Cukup.');
 } else if (score <= 89){
-    window.alert('Baik.')
-} else (score >= 90){
-    window.alert('Sangat Baik.')
+    window.alert('Nilai anda Baik.');
+} else if (score >= 100){
+    window.alert('maksimal 100 bambang.');
+} else{
+    window.alert('Selamat! Nilai anda Sangat Baik.');
 }
 
 console.log('Stop Program Penilaian Nilai Siswa');

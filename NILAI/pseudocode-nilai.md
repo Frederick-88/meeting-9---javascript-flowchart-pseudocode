@@ -1,6 +1,5 @@
 # PSEUDOCODE NILAI
-## OUTPUT 'Masukkan nilai ulangan anda'
-## INPUT user akan menginput nilainya.
+## INPUT user akan menginput nilai ulangannya.
 ## STORE the user's input in the answer variable
 ## IF answer = '<60' THEN
 ## OUTPUT 'Kurang'
