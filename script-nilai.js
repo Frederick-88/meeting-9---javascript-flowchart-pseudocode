@@ -9,7 +9,7 @@ if (score <= 60) {
     window.alert('Nilai anda Cukup.');
 } else if (score <= 89){
     window.alert('Nilai anda Baik.');
-} else if (score >= 100){
+} else if (score >= 101){
     window.alert('maksimal 100 bambang.');
 } else{
     window.alert('Selamat! Nilai anda Sangat Baik.');
